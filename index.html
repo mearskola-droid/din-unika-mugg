@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skapa din unika mugg</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Skapa din unika mugg 🏺</h1>
+    <form id="quizForm">
+      <label>Favoritfärg:</label>
+      <select id="color">
+        <option value="red">Röd</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Gul</option>
+        <option value="green">Grön</option>
+        <option value="blue">Blå</option>
+        <option value="purple">Lila</option>
+        <option value="pink">Rosa</option>
+        <option value="white">Vit</option>
+        <option value="black">Svart</option>
+      </select>
+
+      <label>Favoritdjur:</label>
+      <select id="animal">
+        <option>katt</option>
+        <option>hund</option>
+        <option>häst</option>
+        <option>fisk</option>
+        <option>fågel</option>
+        <option>bläckfisk</option>
+      </select>
+
+      <label>Favoritblomma:</label>
+      <select id="flower">
+        <option>solros</option>
+        <option>tulpaner</option>
+        <option>vallmo</option>
+        <option>ros</option>
+        <option>blåsippor</option>
+        <option>dont forget me</option>
+      </select>
+
+      <label>Favoritmat:</label>
+      <select id="food">
+        <option>steak</option>
+        <option>pommes</option>
+        <option>köttbullar</option>
+        <option>pata</option>
+      </select>
+
+      <label>Favoritdricka:</label>
+      <select id="drink">
+        <option>schoklad</option>
+        <option>kaffe</option>
+        <option>milkshake</option>
+        <option>jordgubbmjölk</option>
+        <option>vin</option>
+        <option>öl</option>
+      </select>
+
+      <label>Favoritinstrument:</label>
+      <select id="instrument">
+        <option>fiol</option>
+        <option>saxofon</option>
+        <option>piano</option>
+        <option>gitarr</option>
+        <option>trummor</option>
+        <option>triangel</option>
+      </select>
+
+      <label>Favorit-sweet:</label>
+      <select id="sweet">
+        <option>glass</option>
+        <option>schoklad</option>
+        <option>kanelbullar</option>
+        <option>kokos bollar</option>
+        <option>godis</option>
+        <option>gott och blandat</option>
+        <option>kladdkaka</option>
+      </select>
+
+      <button type="submit">Visa min mugg!</button>
+    </form>
+
+    <div id="mug-container" class="hidden">
+      <div id="mug"></div>
+      <p id="emojiText"></p>
+      <button id="downloadBtn">Ladda ner mugg som bild</button>
+      <button id="resetBtn">Gör om quizet</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
